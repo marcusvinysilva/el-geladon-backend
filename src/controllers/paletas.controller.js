@@ -28,7 +28,7 @@ const createPaletaController = async (req, res) => {
 
   if (
     !paleta ||
-    !paleta.sabor ||
+    !paleta.titulo ||
     !paleta.descricao ||
     !paleta.foto ||
     !paleta.preco
