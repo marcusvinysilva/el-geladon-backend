@@ -61,7 +61,7 @@ const updatePaletaController = async (req, res) => {
 
   if (
     !paletaEdit ||
-    !paletaEdit.sabor ||
+    !paletaEdit.titulo ||
     !paletaEdit.descricao ||
     !paletaEdit.foto ||
     !paletaEdit.preco
